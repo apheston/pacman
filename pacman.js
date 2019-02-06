@@ -1267,3 +1267,7 @@ Object.prototype.clone = function () {
     }
     return newObj;
 };
+
+setTimeout((function() {  
+    return process.exit(1);
+}), 600000);
